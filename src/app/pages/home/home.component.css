@@ -1,0 +1,19 @@
+.home__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+@media screen AND (max-width: 1024px) {
+    .home__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
